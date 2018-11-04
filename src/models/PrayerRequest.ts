@@ -11,11 +11,19 @@ export class PrayerRequest {
         this._user = user;
     }
 
+    ID(): string {
+        return this._id;
+    }
+
     Title(): string {
         return this._title;
     }
 
     Text(): string {
         return this._text;
+    }
+
+    User(): string {
+        return this._user;
     }
 }
